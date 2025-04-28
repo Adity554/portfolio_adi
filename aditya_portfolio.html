@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Prasad Padhi - Web Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: gold;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #f5f5f5;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 100px 40px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: gold;
+    }
+    .hero p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .section h3 {
+      color: gold;
+      margin-bottom: 20px;
+    }
+    .projects, .contact {
+      display: grid;
+      gap: 20px;
+    }
+    .project-item {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: gold;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    form button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: gold;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      padding: 20px 40px;
+      text-align: center;
+      background: #000;
+    }
+    footer a {
+      margin: 0 10px;
+      color: gold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aditya Prasad Padhi</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h2>Creative Web Designer</h2>
+    <p>I craft beautiful and functional websites to bring your ideas to life.</p>
+  </section>  <section id="projects" class="section">
+    <h3>My Work</h3>
+    <div class="projects">
+      <div class="project-item">
+        <h4>Project One</h4>
+        <p>Description of the project and what technologies were used.</p>
+      </div>
+      <div class="project-item">
+        <h4>Project Two</h4>
+        <p>Description of another project showcasing skills.</p>
+      </div>
+    </div>
+  </section>  <section id="resume" class="section">
+    <h3>Resume</h3>
+    <a class="resume-btn" href="resume.pdf" download>Download Resume</a>
+  </section>  <section id="contact" class="section contact">
+    <h3>Contact Me</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <footer>
+    <p>Connect with me:</p>
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+    <a href="#">Instagram</a>
+    <p>&copy; 2025 Aditya Prasad Padhi</p>
+  </footer>
+</body>
+</html>
